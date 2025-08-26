@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { AuthContext } from "../Context/AuthContext.jsx";
+import { AuthContext } from "../context/AuthContext.jsx";
 import PostHeader from "./Card/PostHeader.jsx";
 import PostUpdate from "./PostUpdate";
 import PostBody from "./Card/PostBody.jsx";

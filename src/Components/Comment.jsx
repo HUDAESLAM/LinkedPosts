@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import PostHeader from "./Card/PostHeader.jsx";
-import { AuthContext } from "../Context/AuthContext.jsx";
+import { AuthContext } from "../context/AuthContext.jsx";
 import { updateCommentApi, deleteCommentApi } from "../Services/commentService.js";
 
 export default function Comment({ comment, postUserId, onUpdate }) {

@@ -6,7 +6,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { schema } from "../scheme/loginSchema.js";
 import { sendLoginData } from "../Services/authServices.js";
 import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../Context/AuthContext.jsx";
+import { AuthContext } from "../context/AuthContext.jsx";
+
 
 
 export default function Register() {
