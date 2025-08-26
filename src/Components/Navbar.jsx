@@ -6,7 +6,7 @@ import {
 } from "@heroui/react";
 import { useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { AuthContext } from "../Context/AuthContext.js";
+import { AuthContext } from "../Context/AuthContext.jsx";
 
 export default function App() {
   const navigate = useNavigate();
