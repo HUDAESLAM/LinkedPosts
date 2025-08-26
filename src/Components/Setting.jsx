@@ -1,6 +1,6 @@
 import React from "react";
-import ChangePassword from "./ChangePassword";
-import UploadProfilePhoto from "./UploadProfilePhoto";
+import ChangePassword from "./ChangePassword.jsx";
+import UploadProfilePhoto from "./UploadProfilePhoto.jsx";
 
 export default function Settings() {
   return (

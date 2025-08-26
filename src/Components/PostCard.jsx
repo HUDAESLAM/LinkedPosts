@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
-import { AuthContext } from "../Context/AuthContext";
-import PostHeader from "./Card/PostHeader";
+import { AuthContext } from "../Context/AuthContext.js";
+import PostHeader from "./Card/PostHeader.jsx";
 import PostUpdate from "./PostUpdate";
-import PostBody from "./Card/PostBody";
+import PostBody from "./Card/PostBody.jsx";
 import PostFooter from "./Card/PostFooter";
-import Comment from "../Components/Comment";
-import { createCommentApi } from "../Services/commentService";
-import PostOptionsDropdown from "./PostOptionsDropdown";
-import { deletePostApi } from "../Services/postServices";
+import Comment from "../Components/Comment.jsx";
+import { createCommentApi } from "../Services/commentService.js";
+import PostOptionsDropdown from "./PostOptionsDropdown.jsx";
+import { deletePostApi } from "../Services/postServices.js";
 import { Spinner } from "@heroui/react";
 
 export default function PostCard({ post, commentLimit, callback }) {

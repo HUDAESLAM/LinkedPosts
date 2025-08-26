@@ -3,10 +3,11 @@ import { Input } from "@heroui/react";
 import { Button } from "@heroui/button";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { schema } from "../scheme/loginSchema";
-import { sendLoginData } from "../Services/authServices";
+import { schema } from "../scheme/loginSchema.js";
+import { sendLoginData } from "../Services/authServices.js";
 import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../Context/AuthContext.jsx";
+
 
 export default function Register() {
   const [loading, setLoading] = useState(false);

@@ -5,8 +5,8 @@ import { useForm, Controller } from "react-hook-form";
 import { Button } from "@heroui/button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useNavigate } from "react-router-dom";
-import { sendRegisterData } from "../Services/authServices";
-import { schema } from "../scheme/registerSchema";
+import { sendRegisterData } from "../Services/authServices.js";
+import { schema } from "../scheme/registerSchema.js";
 import { Link } from "react-router-dom";
 
 export default function Register() {

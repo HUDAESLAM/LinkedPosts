@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { uploadProfilePhotoApi } from "../Services/authServices";
+import { uploadProfilePhotoApi } from "../Services/authServices.js";
 import { Spinner } from "@heroui/react";
 
 export default function UploadProfilePhoto() {

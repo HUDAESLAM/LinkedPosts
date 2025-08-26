@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Spinner } from "@heroui/react";
-import { updatePostApi } from "../Services/postServices";
+import { updatePostApi } from "../Services/postServices.js";
 
 export default function PostUpdate({
   post,

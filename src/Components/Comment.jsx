@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import PostHeader from "./Card/PostHeader";
-import { AuthContext } from "../Context/AuthContext";
-import { updateCommentApi, deleteCommentApi } from "../Services/commentService";
+import PostHeader from "./Card/PostHeader.jsx";
+import { AuthContext } from "../Context/AuthContext.js";
+import { updateCommentApi, deleteCommentApi } from "../Services/commentService.js";
 
 export default function Comment({ comment, postUserId, onUpdate }) {
   const { userData } = useContext(AuthContext);

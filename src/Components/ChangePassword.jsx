@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { changePasswordApi } from "../Services/authServices";
+import { changePasswordApi } from "../Services/authServices.js";
 // import { useNavigate } from "react-router-dom";
 
 export default function ChangePassword() {

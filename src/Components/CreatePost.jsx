@@ -1,6 +1,6 @@
 import { Button, Spinner } from "@heroui/react";
 import { useState } from "react";
-import { createPostApi } from "../Services/postServices";
+import { createPostApi } from "../Services/postServices.js";
 // import { set } from "zod";
 
 export default function CreatePost({ callback }) {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import PostCard from "../Components/PostCard";
-import { getAllPostsApi } from "../Services/postServices";
-import LoadingScreen from "../Components/LoadingScreen";
-import CreatePost from "../Components/CreatePost";
+import PostCard from "../Components/PostCard.jsx";
+import { getAllPostsApi } from "../Services/postServices.js";
+import LoadingScreen from "../Components/LoadingScreen.jsx";
+import CreatePost from "../Components/CreatePost.jsx";
 
 export default function FeedPage() {
   const [posts, setPosts] = useState([]);
