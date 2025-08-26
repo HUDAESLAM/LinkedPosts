@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PostCard from "../components/PostCard";
+import PostCard from "../Components/PostCard";
 import LoadingScreen from "../components/LoadingScreen";
 import { getMyPostsApi } from "../Services/profileService";
 import Setting from "../Components/Setting";
